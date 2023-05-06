@@ -13,11 +13,14 @@ import Clases.Carrera;
  */
 public class Principal {
     
-    public static void main(String[] args) {    
-         Universidad objUniversidad = new Universidad("UTPL","Loja","Diana Jimenez",5);
+    public static void main(String[] args) {
+        //Crear objecto universidad
+        Universidad objUniversidad = new Universidad("UTPL","Loja","Diana Jimenez",5);
+        //crear objeto carrera
         Carrera objCarrera = new Carrera("Tecnologia en Transformacion Digital de Empresas","UTPL TEC","Tecnólogo en Transformacion Digital de Empresas",4,"Patricio Abad");
         //cambio en numero de semestres
         objCarrera.setNumero_semestres(6);
+        //presentar datos por pantalla
         System.out.println("Datos de la Universidad:");
         System.out.println(objUniversidad.toString());
         System.out.println("Datos de la Carrera:");
