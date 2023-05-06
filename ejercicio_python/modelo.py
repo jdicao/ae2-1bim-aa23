@@ -25,7 +25,7 @@ class Universidad:
         return self.numero_facultades
     #tostring
     def __str__(self):
-        return "Universidad:  %s, Ciudad: %s, Rector: %s, Numero de Facultades: %d\n" \
+        return "Universidad:  %s,\n Ciudad: %s,\n Rector: %s,\n Numero de Facultades: %d\n" \
         % (self.nombre, self.ciudad, self.rector, self.numero_facultades)
 
 class Carrera:
@@ -55,5 +55,5 @@ class Carrera:
         return self.semestres
     #tostring
     def __str__(self):
-        return "Carrera: %s, Facultad: %s, Titulo que otorga: %s, Numero de semestres: %d\n" %(self.nombre, self.facultad, self.titulo, self.semestres)
+        return "Carrera: %s,\n Facultad: %s,\n Titulo que otorga: %s,\n Numero de semestres: %d\n" %(self.nombre, self.facultad, self.titulo, self.semestres)
     
