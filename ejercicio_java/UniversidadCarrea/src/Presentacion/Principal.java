@@ -15,8 +15,9 @@ public class Principal {
     
     public static void main(String[] args) {    
          Universidad objUniversidad = new Universidad("UTPL","Loja","Diana Jimenez",5);
-        Carrera objCarrera = new Carrera("Tecnología en Transformación Digital de Empresas","UTPL TEC","Tecnólogo en Transformación Digital de Empresas",4);
-        //System.out.println(objUniversidad.toString());
+        Carrera objCarrera = new Carrera("Tecnologia en Transformacion Digital de Empresas","UTPL TEC","Tecnólogo en Transformacion Digital de Empresas",4);
+        //cambio en numero de semestres
+        objCarrera.setNumero_semestres(6);
         System.out.println("Datos de la Universidad:");
         System.out.println(objUniversidad.toString());
         System.out.println("Datos de la Carrera:");
