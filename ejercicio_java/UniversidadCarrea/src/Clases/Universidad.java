@@ -58,7 +58,7 @@ public class Universidad {
 
     @Override
     public String toString() {
-        return "Universidad{" + "nombre=" + nombre + ", ciudad=" + ciudad + ", rector=" + rector + ", numero_facultades=" + numero_facultades + '}';
+        return "Universidad {" + "nombre = " + nombre + ",  ciudad = " + ciudad + ",  rector = " + rector + ",  numero_facultades = " + numero_facultades + " }";
     }
     
     

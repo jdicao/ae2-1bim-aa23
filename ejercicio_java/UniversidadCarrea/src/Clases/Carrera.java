@@ -67,7 +67,7 @@ public class Carrera {
     @Override
     public String toString() {
         //return "Carrera{" + "nombre=" + nombre + ", facultad=" + facultad + ", titulo=" + titulo + ", numero_semestres=" + numero_semestres + '}';
-        return "Carrera{" + "nombre=" + nombre + ", facultad=" + facultad + ", director=" + director + ", titulo=" + titulo + ", numero_semestres=" + numero_semestres + '}';
+        return "Carrera { " + " nombre = " + nombre + ",  facultad = " + facultad + ",  director = " + director + ",  titulo = " + titulo + ",  numero_semestres = " + numero_semestres + " }";
     }
     
     
