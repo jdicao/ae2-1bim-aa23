@@ -29,11 +29,12 @@ class Universidad:
         % (self.nombre, self.ciudad, self.rector, self.numero_facultades)
 
 class Carrera:
-    def __init__(self, pnombre, pfacultad, ptitulo, psemestres):
+    def __init__(self, pnombre, pfacultad, ptitulo, psemestres, pdirector):
         self.nombre = pnombre
         self.facultad = pfacultad
         self.titulo = ptitulo
         self.semestres = psemestres
+        self.director = pdirector
 
     #setters
     def set_nombre (self, p):
@@ -44,6 +45,8 @@ class Carrera:
         self.titulo = p
     def set_semestres(self, p):
         self.semestres = p
+    def set_director(self, p):
+        self.director
     #getters
     def get_nombre (self):
         return self.nombre
@@ -53,7 +56,9 @@ class Carrera:
         return self.titulo
     def get_semestres(self):
         return self.semestres
+    def get_director(self):
+        return self.director
     #tostring
     def __str__(self):
-        return "Carrera: %s,\n Facultad: %s,\n Titulo que otorga: %s,\n Numero de semestres: %d\n" %(self.nombre, self.facultad, self.titulo, self.semestres)
+        return "Carrera: %s,\n Facultad: %s,\n Titulo que otorga: %s,\n Numero de semestres: %d,\n Director: %s\n" %(self.nombre, self.facultad, self.titulo, self.semestres, self.director)
     

@@ -2,7 +2,7 @@ from modelo import Universidad, Carrera
 #crear objeto universidad con datos mediante constructor
 universidad = Universidad("UTPL", "Loja", "Diana Jimenez", 5)
 #crear objeto carrera con datos mediante constructor
-carrera = Carrera("Tecnología en Transformación Digital de Empresas","UTPL TEC","Tecnólogo en Transformación Digital de Empresas",4)
+carrera = Carrera("Tecnología en Transformación Digital de Empresas","UTPL TEC","Tecnólogo en Transformación Digital de Empresas",4,"Patricio Abad")
 print("-----------------------------------------------------------------------------")
 print("Datos de Universidad: \n")
 #presentar datos seteados en el objeto universidad
