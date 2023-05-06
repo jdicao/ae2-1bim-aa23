@@ -13,15 +13,17 @@ public class Carrera {
     public String facultad;
     public String titulo;
     public int numero_semestres;
+    public String director;
 
     public Carrera() {
     }
 
-    public Carrera(String nombre, String facultad, String titulo, int numero_semestres) {
+    public Carrera(String nombre, String facultad, String titulo, int numero_semestres, String director) {
         this.nombre = nombre;
         this.facultad = facultad;
         this.titulo = titulo;
         this.numero_semestres = numero_semestres;
+        this.director = director;
     }
 
     public String getNombre() {
@@ -39,6 +41,9 @@ public class Carrera {
     public int getNumero_semestres() {
         return numero_semestres;
     }
+    public String getDirector() {
+        return director;
+    }    
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -55,10 +60,14 @@ public class Carrera {
     public void setNumero_semestres(int numero_semestres) {
         this.numero_semestres = numero_semestres;
     }
+    public void setDirector(String director) {
+        this.director = director;
+    }    
 
     @Override
     public String toString() {
-        return "Carrera{" + "nombre=" + nombre + ", facultad=" + facultad + ", titulo=" + titulo + ", numero_semestres=" + numero_semestres + '}';
+        //return "Carrera{" + "nombre=" + nombre + ", facultad=" + facultad + ", titulo=" + titulo + ", numero_semestres=" + numero_semestres + '}';
+        return "Carrera{" + "nombre=" + nombre + ", facultad=" + facultad + ", director=" + director + ", titulo=" + titulo + ", numero_semestres=" + numero_semestres + '}';
     }
     
     
